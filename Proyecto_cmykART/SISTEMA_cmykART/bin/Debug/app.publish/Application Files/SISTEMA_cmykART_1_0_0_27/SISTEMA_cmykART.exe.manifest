@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SISTEMA_cmykART.exe" version="1.0.0.27" publicKeyToken="6b9f97ee6d8ce153" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CMYKART-_ISOLOGO_-peque_o_.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SISTEMA_cmykART" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SISTEMA_cmykART.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaDatos.dll" size="44032">
+      <assemblyIdentity name="CapaDatos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YoBBvepzkxTkc1+EiAUGvdusaiWSW+Vbje0NmLJmwW0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaNegocio.dll" size="12800">
+      <assemblyIdentity name="CapaNegocio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2OXSiJ1GUqY6SNhOy/fkNINFCGtm2a8Z44SAR81BS4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="1980928">
+      <assemblyIdentity name="CapaPresentacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>N5qPXqs5q7VvzOJWYSOQTDsb8AE81F35gH9oe1b3zbM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SISTEMA_cmykART.exe" size="22952">
+      <assemblyIdentity name="SISTEMA_cmykART" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iU8p1tt5i6u22rsJxDhJM1TUg5CnNPxkpAlMTB7IQ4Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CMYKART-_IMAGOTIPO_.ico" size="224318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yY0imH9BaSozqrdCWxbDPTChAWjGWVoNie1e82qfOxc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CMYKART-_ISOLOGO_-peque_o_.ico" size="14942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sLSOdxbDHnOCzpsb4TIDvsRy6GhVQdMQnVOEBcMqsw4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Fondo.png" size="12642">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xZwmQfu90RTS7f0zh6tW8CLe8U7speuvFvYG9wk1ZZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MANUAL DE USUARIO.pdf" size="4881918">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+kOloBoqjD94gzDE1t/lBoozCl5RCQzheyEpavWnXbc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SISTEMA_cmykART.exe.config" size="1124">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>phUp9jM1spZf69h2Q/zJspXlED4Q6Y+najLs+7ZmW3U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JOSE-PC\JOSE" issuerKeyHash="17f230c3ec1522014d6bb47c2e7bf905aca75c64" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p2GmNHYLeF7QIYMduU3ERTtHMog0Aa/ZBILH0Bl1KQc=</DigestValue></Reference></SignedInfo><SignatureValue>HfHOul7B8NEUjetbjdqkBW54cXHExseHLHs9P/JVKInXMhnibPTPg6o0Q5pcLywzYuwCkJ4SZFpAjLRHPMWTxlNgyvXKlMSup+WN5j4TILzC3r0CMNOM28HPpqAY09UVfHVf+pE9V83XrIt7bJbmrxiHWSvRlX56U8BrfXMWTNU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8MprtKQvulBLLkSrdb4zU3Sz35mLNsSqglZV74fv5KXRXkfoBJ88rYFl14l75JNk83oK+H615+3zxgiHamUoNzfGbmaOn0yElPd3vs2GLQBkfms4Ri0eCEupmyCKaJ8Bc43Vllq5fp3XPV6+fT7rNjULyaRCt1EUM9lArzK1kS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="07297519d0c78204d9af01348832473b45c44db91d8321d05e780b7634a661a7" Description="" Url=""><as:assemblyIdentity name="SISTEMA_cmykART.exe" version="1.0.0.27" publicKeyToken="6b9f97ee6d8ce153" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JOSE-PC\JOSE</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MYvSryxDxdydTS/WstNHMTQvUJTcmitWuUkUMP4i1+o=</DigestValue></Reference></SignedInfo><SignatureValue>JZ3oFjmL6yUadbJNh6Btn1KRs3df0lvuXhyAr5C6oEPskibqBl2GmbJLsqusvjogW29fKowXI110GUQVdwecVa2znksmMzkGp6r6WklOz2Wgk5mBM7KFNRdvZQ6Z8UcZdPx5yWuLBjSIsGNBKzrML/AHik8prS6FxIs0mlqUYM4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8MprtKQvulBLLkSrdb4zU3Sz35mLNsSqglZV74fv5KXRXkfoBJ88rYFl14l75JNk83oK+H615+3zxgiHamUoNzfGbmaOn0yElPd3vs2GLQBkfms4Ri0eCEupmyCKaJ8Bc43Vllq5fp3XPV6+fT7rNjULyaRCt1EUM9lArzK1kS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQEnrXDsdGt7lACeNbbdftMDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgASgBPAFMARQAtAFAAQwBcAEoATwBTAEUwHhcNMTcwNDAxMDUzOTI2WhcNMTgwNDAxMTEzOTI2WjAjMSEwHwYDVQQDHhgASgBPAFMARQAtAFAAQwBcAEoATwBTAEUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPDKa7SkL7pQSy5Eq3W+M1N0s9+ZizbEqoJWVe+H7+Sl0V5H6ASfPK2BZdeJe+STZPN6Cvh+teft88YIh2plKDc3xm5mjp9MhJT3d77Nhi0AZH5rOEYtHghLqZsgimifAXON1ZZauX6d1z1evn0+6zY1C8mkQrdRFDPZQK8ytZEtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAi9gYI9WwU/h4s7XwayiUINRma5a3XL9aVBqlY1ZaToHnJzLhOp0nL0Pk/GKUH113mJd/0624qKKL8ynYoNLeP0WEIrnyNP6jU1L/mJShl/yFdPREYI2ykCPbK/3yOSCqD4uKz09Czc6aA0P9Xq9DtnY/6NvPxp1NR7YrJAk8UoU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

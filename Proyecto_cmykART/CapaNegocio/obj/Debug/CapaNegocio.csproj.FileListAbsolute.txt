@@ -1,0 +1,7 @@
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaNegocio\obj\Debug\CapaNegocio.pdb

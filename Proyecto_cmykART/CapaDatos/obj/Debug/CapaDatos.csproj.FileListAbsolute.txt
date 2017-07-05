@@ -1,0 +1,6 @@
+c:\users\jose\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaDatos\bin\Debug\CapaDatos.dll
+c:\users\jose\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaDatos\bin\Debug\CapaDatos.pdb
+c:\users\jose\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaDatos\obj\Debug\CapaDatos.dll
+c:\users\jose\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\JOSE\documents\visual studio 2013\Projects\Proyecto_cmykART\CapaDatos\bin\Debug\CapaDatos.dll.config
